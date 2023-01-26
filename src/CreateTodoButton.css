@@ -30,4 +30,4 @@
 .CreateTodoButton:hover {
     transform: rotate(224deg);
     background-color: var(--main-hover);
-  }
+}

@@ -9,13 +9,13 @@
 }
 
 body{
-  background-color: var(--text-color);
+  background-color: var(--bg-color);
 }
 
 :root{
-  --bg-color:           #3C4048;
+  --bg-color:           #EAEAEA;
   --bg-color-secondary: #B2B2B2;
-  --text-color:         #EAEAEA;
+  --text-color:         #3C4048;
   --main-color:         #00ABB3;
   --main-hover:         #309499;
 
