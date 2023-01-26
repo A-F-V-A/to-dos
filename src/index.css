@@ -20,6 +20,11 @@ body{
   --main-hover:         #309499;
 
   --title:              24px;
+  --text:                  18px;
+
+
+  --color-danger:       #dc3545;
+  --color-success:      #28a745;
 }
 
 #root{

@@ -1,14 +1,16 @@
 import React from "react"
 import "./TodoItem.css"
 
+//  radio_button_unchecked 
+// task_alt
 const TodoItem = props =>{
     return (
         <li className="TodoItem">
-            <span className="material-symbols-outlined">
-                done
+            <span className={`material-symbols-outlined TodoItem__check  ${props.completed && 'TodoItem__check--success'} `}>
+                {props.completed ? 'task_alt' : 'radio_button_unchecked'}
             </span>
-            <p>{props.text}</p>
-            <span className="material-symbols-outlined">
+            <p className={`TodoItem__text ${props.completed && 'TodoItem__text--completed'} `}>{props.text}</p>
+            <span className="material-symbols-outlined TodoItem__delete">
                 close
             </span>
         </li>

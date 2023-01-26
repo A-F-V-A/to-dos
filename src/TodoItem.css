@@ -1,0 +1,52 @@
+.TodoItem{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    
+    
+    box-shadow: 3px 3px 5px rgba(32, 20, 41, 0.25);
+    transition: all .45s ease;
+}
+
+.TodoItem__check{
+    color: var(--text-color);
+    transition: all .45s ease;
+}
+
+.TodoItem__check:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+.TodoItem__check--success{
+    color: var(--color-success);
+}
+
+.TodoItem__delete{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--color-danger);
+    transition: all .45s ease;
+}
+
+.TodoItem__delete:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+.TodoItem__text{
+    font-size: var(--text);
+}
+
+.TodoItem__text--completed{
+    text-decoration: line-through;
+}
+
+
