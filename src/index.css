@@ -18,6 +18,8 @@ body{
   --text-color:         #EAEAEA;
   --main-color:         #00ABB3;
   --main-hover:         #309499;
+
+  --title:              24px;
 }
 
 #root{
@@ -33,4 +35,5 @@ body{
   height: 100%;
   padding: 24px;
 }
+
 
