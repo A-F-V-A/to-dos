@@ -1,11 +1,36 @@
 *{
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-} 
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: var(--text-color);
+}
+
+:root{
+  --bg-color:           #3C4048;
+  --bg-color-secondary: #B2B2B2;
+  --text-color:         #EAEAEA;
+  --main-color:         #00ABB3;
+  --main-hover:         #309499;
+}
 
 #root{
   margin: 0 24px;
-  position: relative;
-  min-height: 100vh;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
 }
+
+#root .container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+}
+
