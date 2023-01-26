@@ -1,11 +1,16 @@
-import React from "react";
+import React from "react"
+import "./TodoItem.css"
 
 const TodoItem = props =>{
     return (
-        <li>
-            <span>C</span>
+        <li className="TodoItem">
+            <span className="material-symbols-outlined">
+                done
+            </span>
             <p>{props.text}</p>
-            <span>X</span>
+            <span className="material-symbols-outlined">
+                close
+            </span>
         </li>
     )
 }
