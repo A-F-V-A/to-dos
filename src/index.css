@@ -10,6 +10,7 @@
 
 body{
   background-color: var(--bg-color);
+  font-size: var(--text);
 }
 
 :root{
@@ -20,7 +21,7 @@ body{
   --main-hover:         #309499;
 
   --title:              24px;
-  --text:                  18px;
+  --text:               18px;
 
 
   --color-danger:       #dc3545;
@@ -40,5 +41,6 @@ body{
   height: 100%;
   padding: 24px;
 }
+
 
 
